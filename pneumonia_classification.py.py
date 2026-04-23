@@ -13,8 +13,8 @@ img_height = 128
 img_channels = 3
 epochs = 5 
 
-train_dir = 'C:\\Users\\turmi\\Music\\Computer-Vision'
-test_dir = 'C:\\Users\\turmi\\Music\\Computer-Vision'
+train_dir = 'C:\\Users\\olide\\Music\\Computer-Vision\\chest_xray\\train'
+test_dir = 'C:\\Users\\olide\\Music\\Computer-Vision\\chest_xray\\test'
 
 with tf.device('/gpu:0'):
     train_ds, val_ds = tf.keras.preprocessing.image_dataset_from_directory(
